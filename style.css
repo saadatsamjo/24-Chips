@@ -1,0 +1,226 @@
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+*, *:before, *:after { 
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 130, 71);
+    height: 100vh;
+    margin: 0;
+}
+
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    height: 45px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+#profile-image {
+    background: #FFFFFF;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height:  41px;
+}
+
+/* #profile-image{
+    height: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+} */
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+#logo{
+    height: 40px;
+    width: 60px;
+}
+
+#account-icon{
+    width: 48px;
+    height:  41px;
+    border-radius: 50px;
+}
+
+
+
+#center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+    background-color:#f29866 ;
+    height: 50vh;
+    width: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#for-now{
+    display: flex;
+    justify-content: space-between;
+    gap: 15vh;
+    margin-top: 50px;
+}
+
+.item{
+    font-size: 20pxs;
+    color: black;
+    background-color: rgb(240, 130, 71);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+}
+
+#logo-header{
+    margin-top: 10px;
+    height: 70px;
+    border-radius: 50px;
+}
+#partnerships{
+    height: 140px;
+}
+#careers{
+    height: 150px;
+}
+#partnership-text{
+    margin-top: 10px;
+}
+
+.footer{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    padding: 20px 0 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+}
+#footer-section1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 10px;
+}
+
+#footer-section2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-left: 60px;
+}
+#footer-section3{
+    margin-right: 5%;
+}
+
+#download-header{
+    text-decoration: underline;
+}
+#downloads{
+    display: flex;
+    align-items: center;
+}
+#downloads #appstore{
+    height: 77px;
+}
+#downloads #playstore{
+    height: 60px;
+}
+
+#socials-header{
+    margin-top: 10px;
+}
+
+#email-input{
+    display: inline;
+    height: 25px;
+}
+
+button{
+    display: inline;
+    background-color:sandybrown;
+    border-radius: 5px;
+    border-color: sandybrown;
+    height: 25px;
+    border: 0.1px solid white;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+#chini{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+    gap: 20px;
+}
+#email-input{
+    border-color: #f29866;
+    outline: none;
+    border-radius: 7px;
+}
+
+#instagram{
+    height: 25px;
+}
+
+#tiktok{
+    height: 30px;
+}
+#saadat{
+    margin-top: 20px;
+    font-size: 13px;
+}
